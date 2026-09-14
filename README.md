@@ -1,11 +1,3 @@
-### 🏥 Teste Técnico – Intuitive Care
-
-**Candidato:** Joseph Borges Morais  
-**Perfil:** Acadêmico de Bacharelado em Sistemas de Informação – 6º Semestre (IFBA)  
-**Foco:** Back-end Development & Data Engineering
-
----
-
 ### 🏗️ Arquitetura do Projeto
 
 O projeto foi estruturado seguindo o modelo de pipeline **ETL (Extract, Transform, Load)**, garantindo a separação de responsabilidades entre a coleta, o tratamento e a persistência dos dados.
@@ -116,15 +108,6 @@ Para garantir a confiabilidade dos relatórios, implementei:
 **Normalização de Tipos:** Conversão automática de strings/vírgulas em formatos numéricos compatíveis com o PostgreSQL durante a importação.
 
 **Deduplicação Inteligente:** Lógica de **keep last** para manter apenas a versão mais atualizada da razão social de cada operadora.
-
----
-
-### 📊 SQL Analytics
-
-```sql
-((valor_periodo_atual - valor_periodo_anterior) 
- / valor_periodo_anterior) * 100
-```
 
 ---
 
