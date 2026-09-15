@@ -14,7 +14,7 @@ Para garantir a integridade dos dados, siga rigorosamente a ordem abaixo:
 
 ```bash
 # Entrar na pasta do projeto
-cd Teste-Estagio-IntuitiveCare
+cd Projeto-ETL
 
 # Criar o ambiente virtual
 python -m venv .venv
